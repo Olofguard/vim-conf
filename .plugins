@@ -10,6 +10,8 @@ Plugin 'hhvm/vim-hack'
 Plugin 'scrooloose/syntastic'
 Plugin 'junegunn/fzf'
 Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
